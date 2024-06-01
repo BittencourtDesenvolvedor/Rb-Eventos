@@ -26,7 +26,7 @@
                     <div class="card-date">{{date('d/m/Y', strtotime($event->date))}}</div>
                     <h5 class="card-title">{{$event->title}}</h5>
                     <p class="cards-participants">X Participantes</p>
-                    <a href="{{Route('event.show', $event->id)}}" class="btn btn-primary">Saber Mais</a>
+                    <a href="{{Route('event.show', $event->id)}}" class="btn btn-success">Saiba Mais <i class="fa-solid fa-paper-plane ms-2"></i></a>
                 </div>
             </div>
         @endforeach
