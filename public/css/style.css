@@ -191,3 +191,11 @@ footer p{
     display: inline-block;
  }
 
+ /* Edit */
+
+ .img-preview{
+    width: 100px;
+    margin: 10px auto ;
+ }
+
+
