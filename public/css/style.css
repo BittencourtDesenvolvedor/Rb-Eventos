@@ -25,6 +25,15 @@ header{
     background-color: #c28008;
     border-color: #c28008;
 }
+.already-join-msg{
+   cursor:not-allowed !important;
+   margin: 20px 0;
+
+}
+.already-join-msg:hover{
+   background-color: #7a9e82;
+
+ }
 .msg{
     background-color: #d4edda;
     color: #155724;
